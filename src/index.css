@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .loading-container {
+    @apply flex items-center justify-center min-h-screen bg-gray-50;
+  }
+  
+  .loading {
+    @apply text-lg font-medium text-gray-600;
+  }
+}
+
+.str-chat__typing-indicator {
+  padding: 6px 12px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  margin: 0 20px 10px;
+}
+
+.str-chat__typing-indicator__text {
+  font-size: 14px;
+  color: #72767E;
+  font-weight: 500;
+}
